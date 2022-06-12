@@ -8,21 +8,22 @@ Description of Research
 •	Choosing programming language and libraries: Python is used for the project because it can be applied inside a Jupiter Notebook and can easily verify the results of changes made to the dataset. Pandas and NumPy are used to import, display, and manipulate data using a Data Frame of the CSV file. 
 •	Findings and Methodology: The data exploration results revealed that missing data exists in the categorical and continuous collections made in the previous sections.
 
-Example 1. Continuous Data Results
-| Variable | Result | 
-| --- | --- |
-| Children | 0.2495 |
-| Income | 0.2490 |
-| Age | 0.2475 |
-| Bandwidth_GB_Year | 0.1021 |
-| Tenure | 0.0931 |
+  Example 1. Continuous Data Results
+  | Variable | Result | 
+  | --- | --- |
+  | Children | 0.2495 |
+  | Income | 0.2490 |
+  | Age | 0.2475 |
+  | Bandwidth_GB_Year | 0.1021 |
+  | Tenure | 0.0931 |
 
 
-Example 2. Categorical Data Results
-Variable	Result
-Techie	0.2477
-Phone	0.1026
-TechSupport	0.0991
+  Example 2. Categorical Data Results
+  | Variable | Result | 
+  | --- | --- |
+  | Techie | 0.2477 |
+  | Phone | 0.1026 |
+  | TechSupport | 0.0991 |
 
 •	Methodology: Since categorical data is not quantitative, an average of the variables cannot substitute in place of missing variables, after dropping the missing categorical fields results in 70% of data remaining for study in the dataset without the errors occurring from missing values of category data. 
 •	Summary of Outcome: The data was imported into a Jupiter Notebook and reviewed for completeness. The total size of the dataset was determined to begin testing for missing data by identifying data columns as either categorical or continuous data to use a statical central tendency to impute the data or delete the missing rows of data as missing categorical data cannot be imputed via statistics as is. Next, outliers within the dataset were examined for possible adverse effects because they can skew the data. 
