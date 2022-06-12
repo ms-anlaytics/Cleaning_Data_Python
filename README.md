@@ -2,6 +2,7 @@
 
 
 Description of Research
+
 •	Research Decision: Identifying reasons a customer might leave the company is a realistic concern, as it saves the company money in retaining its current customers. Describing Variables: The dataset includes customers who left, services they used, account information about the customer, and customer demographics information. 
 •	Data-Cleaning Purpose: The cleaning plan checks the data for missing values and replaces data where possible by imputing or assigning a variable to the data. 
 •	Data-Cleaning Approach: Qualifying the data as either categorical or continuous is an essential first step in finding any weaknesses in the dataset. 
